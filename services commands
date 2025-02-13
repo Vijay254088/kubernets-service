@@ -1,0 +1,46 @@
+2 minikube start
+   3 minikube start
+   4 minikube status
+   5 minikube stop
+   6 minikube start
+   7 minikube status
+   8 kubectl apply -f deployment.yml
+   9 kubectl apply -f service.yml
+  10 curl http://nginx-service
+  11 kubectl get service nginx-service -o wide
+  12 curl http://10.111.110.151
+  13 Test-NetConnection 10.111.110.151 -Port 80
+  14 Get-NetFirewallRule | Where-Object { $_.DisplayName -like "*HTTP*" -and $_.Enabled -eq $true }
+  15 Get-Service -Name W3SVC
+  16 wget http://10.111.110.151 -UseBasicParsing
+  17 kubectl run test -pod --image=busybox --restart=never --rm -it -- /bin/sh
+  18 Ckubectl run test-pod-image=busybox Crestart-Never -rm-it
+  19 /bin/sh
+  20 kubectl run test-pod --image=busybox --restart=Never --rm -it -- /bin/sh
+  21 kubectl aplly -f service(1).yml
+  22 kubectl apply -f service(1).yml
+  23 kubectl apply -f service.yml
+  24 kubectl apply -f service.yml
+  25 kubectl get pods -o wide
+  26 kubectl apply -f service.yml
+  27 kubectl port-forward svc/nginx-service 8080:80
+  28 kubectl apply -f service.yml
+  29 kubectl get svc example-service
+  30 minikube service example-service
+  31 kubectl get pods -l app=example
+  32 wget -O - http://example-service:8765
+  33 curl http://192.168.49.2:30364
+  34 wget -O - http://192.168.49.2:30364
+  35 minikube ip
+  36 kubectl get svc example-service
+  37 kubectl get endpoints example-service
+  38 kubectl get pods -l app=example
+  39 kubectl logs <pod-name>
+  40 kubectl port-forward svc/example-service 8765:8765
+  41 curl http://localhost:8765
+  42 kubectl get all
+  43 curl http ://10.98.210.144
+  44 curl http ://10.98.210.144:8765
+  45 curl http://10.98.210.144:8765
+  46 kubectl get svc example-service -o wide
+  47 kubectl get endpoints example-service
